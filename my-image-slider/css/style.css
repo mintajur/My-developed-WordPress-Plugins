@@ -1,0 +1,43 @@
+/* Adjust the positioning of navigation buttons */
+.my-image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
+
+.slides {
+    position: relative; /* Ensure relative positioning for absolute positioning of navigation buttons */
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation button {
+    background-color: transparent;
+    border: none;
+    padding: 0 18px; /* Adjust padding as needed */
+    font-size: 24px; /* Adjust icon size */
+    color: #000; /* Default icon color */
+    cursor: pointer;
+    outline: none; /* Remove outline on button */
+}
+
+.navigation button:hover {
+    color: #fff; /* Icon color on hover */
+}
