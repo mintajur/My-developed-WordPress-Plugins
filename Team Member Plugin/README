@@ -1,1 +1,40 @@
+Team Members Plugin
+
+Description
+The Team Members Plugin is a WordPress plugin that simplifies the management and display of team members on your WordPress site. With this plugin, you can easily create, edit, and showcase information about each team member, including their name, picture, bio, and position within the team.
+
+Features
+Custom Post Type: The plugin registers a custom post type named "Team Member" specifically for managing team member information.
+Taxonomy: It also includes a taxonomy named "Member Type," which allows you to categorize team members hierarchically based on their roles or departments.
+Shortcode Support: Utilize the [team_members] shortcode to effortlessly display team members anywhere on your site.
+Flexible Shortcode Parameters: The shortcode accepts various parameters, such as the number of team members to display, the position of the image within the HTML template, and an option to show or hide the "See All" button.
+Two Design Options: Choose between two design templates based on shortcode parameters: one with the image positioned at the top and the other with the image positioned at the bottom.
+Clickable Elements: Both the name and image of team members are clickable, leading users to a dedicated single page where additional details about the team member, including their bio, are displayed.
+Customizable: Easily customize the appearance of the team members section by modifying the plugin's CSS file (assets/css/team-members.css) to match your site's theme.
+
+Installation
+1. Download the  team-members-plugin.zip  file from the latest release.
+2. Log in to your WordPress admin panel.
+3. Navigate to Plugins > Add New.
+4. Click on the Upload Plugin button and select the  team-members-plugin.zip  file.
+5. Activate the plugin.
+
+Usage
+Shortcode
+To display team members, simply use the  [team_members]  shortcode within any post, page, or widget area. Customize the shortcode parameters according to your preferences:
+
+Example:
+[team_members number="-1" image_position="top" show_button="true"]
+
+Customization
+Feel free to customize the appearance of the team members section by modifying the CSS file located at  wp-content/plugins/team-members-plugin/assets/css/team-members.css .
+
+Support
+For any inquiries or assistance, please contact the author at author@example.com.
+
+License
+This plugin is released under the GNU General Public License v2.0 or later. See the LICENSE file for details.
+
+Credits
+Author: Orbit Technology || Md. Mintajur Rahman Emon
 
